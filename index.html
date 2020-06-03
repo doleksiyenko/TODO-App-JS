@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <h1>TODO LIST</h1>
+        <p>Enter your task into the box below (Maximum 50 characters).</p>
+        <p id='complete-task'>Click a task to mark it as complete, <span style="color: red;">click 'x' to remove.</span></p>
+    </div>
+    <form class='note-entry'>
+        <label id="char-limit">0/50</label>
+        <input type='text' placeholder='Todo...' id="todo-entry" maxlength="50"/>
+        <button id="add-todo">+</button>
+    </form>
+    
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
