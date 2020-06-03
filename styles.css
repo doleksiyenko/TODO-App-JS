@@ -37,6 +37,8 @@ p {
 }
 
 .note-entry > button {
+    background-color: #B3EFB2;
+    border-color: #B3EFB2;
     font-size: inherit;
     border-radius: inherit;
     border-style: solid;
@@ -46,6 +48,8 @@ p {
 
 .note-entry > button:hover {
     cursor: pointer;
+    background-color: rgb(148, 236, 146);
+    border-color: rgb(148, 236, 146);
 }
 
 .note-entry > button:active {
