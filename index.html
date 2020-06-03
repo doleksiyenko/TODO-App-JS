@@ -10,14 +10,14 @@
     <div>
         <h1>TODO LIST</h1>
         <p>Enter your task into the box below (Maximum 50 characters).</p>
-        <p id='complete-task'>Click a task to mark it as complete, <span style="color: red;">click 'x' to remove.</span></p>
+        <p id='complete-task-p'>Click a task to mark it as complete, <span style="color: red;">click 'x' to remove.</span></p>
     </div>
     <form class='note-entry'>
-        <label id="char-limit">0/50</label>
-        <input type='text' placeholder='Todo...' id="todo-entry" maxlength="50"/>
+        <label id="char-limit">00/50</label>
+        <input type='text' placeholder='Todo...' id="todo-entry" required='true' autocomplete="off" maxlength="50"/>
         <button id="add-todo">+</button>
     </form>
-    
+    <li></li>
     <script type="text/javascript" src="app.js"></script>
 </body>
 </html>
